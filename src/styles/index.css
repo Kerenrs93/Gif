@@ -1,0 +1,29 @@
+body {
+  background-color: burlywood;
+}
+
+.gif-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.listaGifs-card {
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.listaGifs-card p {
+  max-inline-size: fit-content;
+  font-family: Helvetica;
+  text-align: center;
+  padding: 5px;
+}
+
+.listaGifs-card img {
+  max-height: 170px;
+}
